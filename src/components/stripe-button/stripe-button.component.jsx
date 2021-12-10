@@ -7,7 +7,6 @@ const StripeCheckoutButton = ({ price }) => {
     'pk_test_51HSQGxBL8OwPHATX9V0yUEqrEVGqY6Kg8MUteQh2hO0Gcc96nZXiGgtcvtUGnoRfXSN4gv5Oztp6U0nUYckj2FMa00bgZNl7X0';
 
   const onToken = token => {
-    console.log('token is', token);
     alert('Payment Successful');
   };
 
@@ -15,7 +14,6 @@ const StripeCheckoutButton = ({ price }) => {
     <StripeCheckout
       name='CRWN Clothing Ltd.'
       description={`Your total is $${price}`}
-      image='https://svgshare.com/i/CUz.svg'
       label='Pay Now'
       amount={priceForStipe}
       stripeKey={publishableKey}
