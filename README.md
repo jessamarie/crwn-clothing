@@ -1,3 +1,7 @@
+# crwn-clothing
+
+This project is based off the coursework in [Complete React Developer in 2023 (w/ Redux, Hooks, GraphQL)](https://zerotomastery.io/courses/learn-react/) by Andrei Neagoie and Yihua Zhang.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
