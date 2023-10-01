@@ -75,7 +75,7 @@ export const addItemToCart = (
   productToAdd: CategoryItem
 ) => {
   const newCartItems = addCartItem(cartItems, productToAdd);
-  setCartItems(newCartItems);
+  return setCartItems(newCartItems);
 };
 
 export const removeItemFromCart = (
@@ -83,7 +83,7 @@ export const removeItemFromCart = (
   cartItemToRemove: CartItem
 ) => {
   const newCartItems = removeCartItem(cartItems, cartItemToRemove);
-  setCartItems(newCartItems);
+  return setCartItems(newCartItems);
 };
 
 export const clearItemFromCart = (
@@ -91,5 +91,5 @@ export const clearItemFromCart = (
   cartItemToClear: CartItem
 ) => {
   const newCartItems = clearCartItem(cartItems, cartItemToClear);
-  setCartItems(newCartItems);
+  return setCartItems(newCartItems);
 };
