@@ -8,6 +8,8 @@ This project is based off the coursework in [Complete React Developer in 2023 (w
 
 [React v18 w/ Redux and Redux Toolkit](https://github.com/jessamarie/crwn-clothing/tree/2023-redux-toolkit)
 
+[React v18 Graphql spinoff](https://github.com/jessamarie/crwn-clothing/tree/2023-graphql)
+
 [React v18 w/ only hooks and styled components](https://github.com/jessamarie/crwn-clothing/tree/2023-hooks-and-styled-components)
 
 [React v18 w/ only hooks and sass](https://github.com/jessamarie/crwn-clothing/tree/2023-hooks-and-sass)
